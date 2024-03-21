@@ -1,0 +1,22 @@
+{
+  "name": "wielkanocne-rabbitmq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.19.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
